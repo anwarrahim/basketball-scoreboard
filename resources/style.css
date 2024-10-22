@@ -44,6 +44,7 @@ h1{
 .scoreNum{
     font-family: cursedTimer;
     background-color: black;
+    font-size: 50px;
     padding: 50px 60px;
     color: red;
     border-radius: 5px;
@@ -59,5 +60,10 @@ h1{
     width: 80px;
     height: 80px;
     font-family: cursedTimer;
-    font-size: 20px;
+    font-size: 30px;
+}
+span{
+    font-family: "Calibri";
+    margin: 0;
+
 }
