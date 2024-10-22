@@ -27,7 +27,6 @@ function Home3Increment(){
 
 //................................Guest........................................
 Gcount = 0;
-
 function Guest1Increment(){
     Gcount +=1;
     document.getElementById("Guest-score-num").textContent = Gcount;
