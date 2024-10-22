@@ -1,10 +1,12 @@
 @font-face {
-    src: url("/resources/fonts/CursedTimerUlil-Aznm.ttf");
-    /*font-family: cursedTimer;*/
+    src: url("fonts/CursedTimerUlil-Aznm.ttf");
+    font-family: cursedTimer;
 }
 
 body{
     text-align: center;
+    background-color: antiquewhite;
+    margin: 0px;
 }
 
 /*.card{*/
@@ -20,6 +22,8 @@ body{
    justify-content: center;
     column-gap: 50px;
    align-items: center;
+    margin-top: 150px;
+
 
 }
 
@@ -27,18 +31,29 @@ body{
     background-color: black;
     width: 300px;
     height: 300px;
-    /*font-family: cursedTimer;*/
+    font-family: cursedTimer, sans-serif;
     color: red;
-    font-size: 60px;
+    font-size: 70px;
+
+}
+h1{
+    font-family: "cursive";
 }
 .scoreNum{
     font-family: "cursive";
     background-color: black;
-    padding: 50px;
+    padding: 50px 60px;
     color: red;
+    border-radius: 5px;
 }
 
 #numSum{
     display: flex;
     justify-content: space-around;
+    background-color: white;
+}
+
+.increment-btn{
+    width: 80px;
+    height: 80px;
 }
